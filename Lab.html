@@ -1,0 +1,188 @@
+<html>
+	<head>
+		<style>
+			body 
+			{
+				margin:0;
+				//background-color:black;
+			}
+			video
+			{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			z-index: -1;
+			}
+			#header
+			{
+				top:0px;
+				width:100%;
+				background-color:black;
+				position:fixed;
+			}
+			#footer
+			{
+				bottom:0px;
+				width:100%;
+				background-color:black;
+				position:fixed;
+			}
+			#video
+			{
+				position:relative;
+			}
+			#option
+			{
+				background-color:#555555;
+				color: #fff;
+				padding: 12px;
+				font-size: 2vw;
+				letter-spacing: 10px;
+				position:absolute;
+				width:40%;
+				left:730px;
+				opacity:.85;
+				text-align:center;
+				-webkit-transition-duration: 0.4s; /* Safari */
+				transition-duration: 0.4s;}
+			#option:hover
+			{
+				background-color: white;
+				color: #555555;
+			}
+
+			
+			
+			
+			
+					.button 
+					{
+						background-color: #555555; 
+						border: none;
+						color: white;
+						padding: 12px 50px;
+						text-align: center;
+						text-decoration: none;
+						display: inline-block;
+						font-size: 16px;
+						margin: 4px 2px;
+						cursor: pointer;
+						opacity:.8;
+						-webkit-transition-duration: 0.4s; /* Safari */
+						transition-duration: 0.4s;
+					}
+					.button:hover
+					{    opacity:.8;
+						//padding: 20px 70px;
+						background-color:white;
+						color:black;
+					}
+
+					
+					
+					
+					
+					
+					
+					
+					.dropdown
+					{
+						position: relative;
+						
+					}
+
+					.dropdown-content
+					{
+						//background:url(dryice.png);
+						display: none;
+						position: absolute;
+						top:200px;
+						background-color: ; //leaving it blank for transparentcolour 
+						min-width: 160px;
+						box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+						padding: 40px 50px;
+						z-index: 1;
+						
+					}
+
+					.dropdown:hover .dropdown-content 
+					{
+						display: block;
+					}
+
+		</style>
+	</head>
+	<body>
+		<div id="header" >
+			<br><img src="hcl_logo_white_1.png" style="position: relative; left: 30px;" alt="loading">
+			<br><br>
+		</div>
+			<div id="video">
+			<video width="1400" height="800px" autoplay muted loop>
+			<source src="home-page-banner-video-new.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+			<div class="dropdown">
+				<div id="option" style="top:220px;">
+				<strong >AUTOMONOICS LAB</strong>
+				</div>
+				 <div class="dropdown-content">
+						<center><strong >AUTOMONOICS LAB</strong></center>
+						<p>
+						<center>
+						<a href="https://htmlcolorcodes.com/"><button class="button"><img src="vRA.jpg" style="width:50px;height:50px;"><br><strong>vRA</button></a>
+						<button class="button "><img src="vrops.jpg" style="width:50px;height:50px;"><br><strong>vROPS</button>
+						<button class="button "><img src="vRLI.jpg" style="width:60px;height:50px;"><br><strong>vRLI</button>
+						<button class="button "><img src="vRBC.jpg" style="width:50px;height:50px;"><br><strong>vBBC</button>
+						<br>
+						<button class="button "><img src="vCenter.jpg" style="width:50px;height:50px;"><br><strong>vCenter</button>
+						<button class="button "><img src="vIDM.jpg" style="width:70px;height:50px;"><br><strong>vIDM</button>
+						<button class="button "><img src="exchange.jpg" style="width:50px;height:50px;"><br><strong>Exchange</button>
+						</center>
+						</p>
+				</div>
+			</div>
+			<div class="dropdown">
+			<div id="option" style="top:280px;">
+			<strong >POCTOOLS LAB</strong>
+			</div>
+			<div class="dropdown-content">
+						<center><strong>POCTOOLS LAB</strong></center>
+						<p><center>
+						<button class="button"><img src="vRA.jpg" style="width:50px;height:50px;"><br><strong>vRA</button>
+						<button class="button "><img src="vRBC.jpg" style="width:50px;height:50px;"><br><strong>vRBC</button>
+						<button class="button "><img src="vIDM.jpg" style="width:70px;height:50px;"><br><strong>vIDM</button>
+						<button class="button "><img src="vRLI.jpg" style="width:50px;height:50px;"><br><strong>vRLI</button>
+						<br>
+						<button class="button "><img src="exchange.jpg" style="width:50px;height:50px;"><br><strong>Exchange</button>
+						<button class="button "><img src="vLM.jpg" style="width:70px;height:50px;"><br><strong>vLM</button>
+						<button class="button "><img src="vrops.jpg" style="width:50px;height:50px;"><br><strong>vROPS</button>
+						<button class="button "><img src="vCenter.jpg" style="width:50px;height:50px;"><br><strong>vCenter</button>
+						</p></center>
+				</div>
+			</div>
+			
+			<div class="dropdown">
+			<div id="option" style="top:340px;">
+			<strong >DAIMLER LAB</strong>
+			</div>
+			<div class="dropdown-content">
+						<center><strong>DAIMLER LAB</strong></center>
+						<p>
+						<center>
+						<button class="button"><img src="vRA.jpg" style="width:50px;height:50px;"><br><strong>vRA</button>
+						<button class="button "><img src="vRBC.jpg" style="width:50px;height:50px;"><br><strong>vRBC</button>
+						<button class="button "><img src="vrops.jpg" style="width:50px;height:50px;"><br><strong>vROPS</button>
+						<button class="button "><img src="vCenter.jpg" style="width:50px;height:50px;"><br><strong>vCenter</button>
+						</center>
+						</p>
+			
+			
+			</div>
+			</div>
+			
+			
+			</div>
+			
+	</body>
+</html>
